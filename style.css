@@ -1,0 +1,326 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    font-family: 'Alegreya Sans', sans-serif;
+ }
+ 
+ 
+ #home {
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    
+    height: 800px;
+    
+}
+#home .navbar
+{
+    height: 60px;
+    /* background-color: tomato; */
+    padding-bottom: 30px;
+}
+#home .caption
+{
+    text-align: center;
+    
+    color: #fff;
+    margin-top: 60px;
+    
+}
+#home .caption .p1{
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+#home .caption .p2 {
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+#home .caption h1{
+    margin-bottom: 18px;
+    line-height: 1.2em;
+    font-size: 76px !important;
+}
+#home .caption .btn1 ,#home .caption .btn2{
+    
+    padding: 15px 28px;
+    
+    
+
+
+}
+#home .caption .btn1{
+    
+    
+    background-color: #8e7754;
+    color: white;
+}
+    
+#home .caption .btn2{
+    background-color: transparent;
+    border-color: #fff ;
+    color: #fff;
+    
+
+}
+.clr
+{
+    clear: both;
+}
+    
+
+
+.about-img
+{
+    /* background-color: #09c; */
+    width: 40%;
+    padding-top: 80px;
+    padding-left:139px;
+    padding-right: 65px;
+    
+    float: left;
+}
+.about-img img{
+    width:100%;
+}
+.about-info
+{
+    display: inline-block;
+    float: left;
+    width: 40%;
+    /* background-color: tomato; */
+    margin-top: 90px;
+    text-align: left;
+}
+.about-info h2{
+    margin-top: 50px;
+}
+.about-info p{
+    margin: 50px 0;
+    padding-right:  0 50px;
+    line-height: 30px;
+
+}
+
+.about-info .icon1{
+    float: left;
+} 
+.about-info .icon2{
+    float: left;
+} 
+.about-info .icon3{
+    float: left;
+} 
+.about-info .icon4{
+    float: left;
+} 
+.about-info  .b1{
+    /* float:left; */
+ /* padding-bottom: 50px; */
+}
+.about-info  .b2{
+    /* float:left; */
+ /* margin-bottom: 40px; */
+}
+.about-info  .b3{
+    /* float:left;
+ margin-bottom: 5px; */
+}
+.about-info  .b4{
+    /* float:left;
+ margin-bottom: 5px; */
+}
+#location
+{
+    background: #f8f8f8;
+    padding-left: 70px;
+}
+.location-info
+{
+    display: inline-block;
+    float: left;
+    width: 40%;
+    
+    margin-top: 90px;
+    padding:0 67.6 px;
+    margin-left: 30px;
+    text-align: left;
+}
+.location-info h2{
+    margin-top: 50px;}
+.location-info p{
+    margin: 50px 0;
+    padding-right:  0 50px;
+    line-height: 30px;
+
+}
+.location-img
+{
+    
+    width: 40%;
+    padding-top: 80px;
+    padding-left:139px;
+    padding-right: 65px;
+    
+    float: left;
+}
+.location-img img{
+    width:100%;
+}   
+.ourbaking
+{ 
+    padding: 40px 40px;
+    
+}
+    .ourbaking h3
+    {
+        
+        text-align: center;
+        margin: 20px 0;
+    }
+    .ourbaking h4
+    {
+        
+        margin: 20px 0;
+    }
+    .ourbaking .p1
+    {
+        text-align: center;
+        margin: 20px 0;
+        padding-bottom: 40px;
+    }
+       
+    .product{
+        
+        width: 33%;
+        text-align: center;
+        float: left;
+    }
+    .product img
+    {
+        width:400px;
+    }
+    .product p{
+        font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400px;
+    }
+    
+    .containers  .information .icoimg{
+
+        float: left;
+        margin-right: 5px;
+
+    }
+    .containers  .information .contact1
+    {
+        margin-top: 30px;
+    }
+    .containers  .information .contact2
+    {
+     padding-top: 19px;
+    }
+    .containers  .information .contact3
+    {
+        padding-top: 20px;
+    }
+    .containers  .information .contact4
+    {
+       padding-top: 20px;
+    }
+         
+    .containers{
+        background: #f8f8f8;
+        padding-left: 70px;
+}
+    
+    .information
+    {
+        width: 40%;
+        padding: 50px;
+        float: left;
+        /* background-color:royalblue; */
+    }
+    .information h2{
+        padding-top: 40px;
+    }
+    .containers .map
+    {
+       width: 40%;
+       padding: 50px;
+       float:left;
+    }
+   .refrences {
+        background-color: #403d38;
+        color: #969696;
+        /* float: left; */
+        width: 100%;
+    }
+    .refrences .Us h4{
+        color: #fff;
+    }
+    .refrences .Us
+    {
+        width: 19%;
+       
+        float: left;
+        padding-left: 60px;
+    }
+    .refrences .Us .pin{
+       
+        /* float: left; */
+    }
+    .refrences .Us .phone
+    {
+       /* float: left; */
+    }
+    .refrences .Us .mail
+    {
+     /* float: left; */
+    }
+    .refrences .Us .earth
+    {
+     /* float: left; */
+     
+    }
+    .refrences .Us .ppin
+    { 
+
+        float: right;
+    }
+    .refrences .Us .pphone
+    {
+     /* padding-top: 10px; */
+     float: right;
+    }
+    .refrences .Us .pmail
+    {
+        /* padding-bottom: 5px; */
+        float: right;
+    }
+    .refrences .Us .pearth
+    { float: right;
+     /* padding-top: 10px; */
+    }
+    .end
+    {
+
+       background-color:#353330;
+       text-align: center;
+       
+    
+    }
+    .end .endimg
+    {
+        padding: 40px 0px;
+    }
+    .end .pend
+    {
+     padding-bottom: 30px;
+     color: #777777;
+     
+                 
+     
+    }
